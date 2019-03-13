@@ -3,11 +3,11 @@ const express = require('express');
 const compression = require('compression');
 const app = express();
 
-var PORT = 8081;
+var PORT = 80;
 app.use(compression());
 app.use(express.static(`${__dirname}/client/dist`));
 
-app.get('*', (req, res) => {
+app.get('/api/product/:id', (req, res) => {
   res.sendFile(`${__dirname}/client/dist/index.html`);
 });
 
