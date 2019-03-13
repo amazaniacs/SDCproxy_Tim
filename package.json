@@ -1,0 +1,26 @@
+{
+  "name": "add-to-cart-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazonians-110/add-to-cart-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amazonians-110/add-to-cart-proxy/issues"
+  },
+  "homepage": "https://github.com/amazonians-110/add-to-cart-proxy#readme",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "newrelic": "^5.6.0",
+    "nodemon": "^1.18.10"
+  }
+}
