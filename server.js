@@ -18,7 +18,9 @@ app.use(express.static(`${__dirname}/client/dist`));
 */
 
 var table = {
-  '/api/product/': 'http://ec2-13-59-168-212.us-east-2.compute.amazonaws.com/',
+  //'/api/product/': 'http://ec2-13-59-168-212.us-east-2.compute.amazonaws.com/',
+  
+  '/api/product/': 'http://ec2-18-224-246-194.us-east-2.compute.amazonaws.com/',
   '/api/productreview/': 'http://ec2-54-153-76-121.us-west-1.compute.amazonaws.com/',
   '/api/products/': 'http://ec2-18-144-10-251.us-west-1.compute.amazonaws.com/',  
   '/products/': 'http://ec2-52-53-247-104.us-west-1.compute.amazonaws.com/'
